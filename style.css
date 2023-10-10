@@ -6,3 +6,42 @@
 body {
     font-family: "Open Sans";
 }
+.header:hover{
+
+background-color: bisque;
+text-decoration: none;
+color:black;
+}
+.header a:hover {
+    text-decoration: none;
+    color:black;
+}
+.header__link:visited {
+    text-decoration: none;
+    color: rgb(124, 83, 83);
+
+}
+a:link {
+color: rgb(76, 167, 179);
+}
+
+.header__link:active{
+    color: rgb(75, 29, 7);
+}
+.header__list li:nth-child(2) {
+    color:rgb(189, 154, 223);
+}
+.block-text{
+    font-size: 100 px;
+    font-weight: 2000;
+    text-align: center;
+    letter-spacing: 4 px;
+    line-height: 7;
+    text-transform: uppercase;
+    text-decoration: underline;
+    [type="text"]:focus {
+        background-color: aquamarine ;
+    }
+}
+
+ 
